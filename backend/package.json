@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirolosAssaad/southshire.git"
+  },
+  "keywords": [
+    "southshire"
+  ],
+  "author": "MAKRAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirolosAssaad/southshire/issues"
+  },
+  "homepage": "https://github.com/KirolosAssaad/southshire#readme"
+}
