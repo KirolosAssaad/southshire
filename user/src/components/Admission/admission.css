@@ -1,0 +1,64 @@
+/* ImageContainer.css */
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  /* width: 300px; /* Adjust the width as needed */
+  /* height: 200px; Adjust the height as needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  position: absolute;
+  align-self: start;
+  top: 25%; /* Adjust the distance from the bottom */
+  left: 5%; /* Adjust the distance from the left */
+  /* color primary color  */
+  
+  width: 50%; /* Adjust the width as needed */
+}
+
+.text {
+  font-size: 80px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin: 0;
+  text-align: left; /* Align text to the left */
+    color: #365486;
+
+}
+
+.apply-button {
+  background-color: #365486; /* Green background color, adjust as needed */
+  color: #DCF2F1; /* White text color */
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 40px;
+  margin-top: 200px; /* Adjust the distance from the text */
+    margin-left: -25%; /* Adjust the distance from the left */
+}
+
+.apply-button:hover {
+  background-color: #DCF2F1; /* White background color */
+  color: #365486; /* Green text color */
+}
+
+.apply-button:active {
+  background-color: #365486; /* Green background color */
+  color: #DCF2F1; /* White text color */
+}
